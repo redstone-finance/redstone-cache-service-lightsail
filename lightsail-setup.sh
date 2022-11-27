@@ -19,6 +19,9 @@ set -x
 # mkdir -p /srv
 # chown ubuntu -R /srv
 
+# fix interactive install
+export DEBIAN_FRONTEND=noninteractive
+
 # Install docker
 apt update
 apt install apt-transport-https ca-certificates curl software-properties-common
