@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# To display commands
+set -x
+
 # # fix interactive install
 # export DEBIAN_FRONTEND=noninteractive
 
