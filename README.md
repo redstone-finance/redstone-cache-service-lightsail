@@ -31,5 +31,3 @@
    The shell script installs `docker-compose` and launches our instance
 
 1. Once the instance is up and running you can navigate to its IP address to see the running site.
-
-   You should now have that task listed.
