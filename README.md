@@ -4,7 +4,7 @@
 
 1. Choose whichever region you prefer.
 
-1. Under `Select a blueprint` click on `OS Only` and choose the Ubuntu image.
+1. Under `Select a blueprint` click on `OS Only` and choose the `Ubuntu 20.04 LTS` image.
 
 1. Click on `+ Add launch script`.
 
@@ -12,15 +12,13 @@
 
    ```
    curl -o lightsail-setup.sh https://raw.githubusercontent.com/redstone-finance/redstone-cache-service-lightsail/main/lightsail-setup.sh
-
    chmod +x ./lightsail-setup.sh
-
    ./lightsail-setup.sh
    ```
 
-   **Note**: To see contents of that script, please visit the github repository
+   **Note**: To see contents of that script, please [visit the github repository](https://github.com/redstone-finance/redstone-cache-service-lightsail/blob/main/lightsail-setup.sh)
 
-1. Choose the appropriate instance size (min 1GB RAM, 2GB recommended)
+1. Choose the appropriate instance size (min: 1GB, recommended: 2GB)
 
 1. Optionally rename the instance.
 
