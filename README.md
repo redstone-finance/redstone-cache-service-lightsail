@@ -20,7 +20,7 @@
 
    **Note**: To see contents of that script, please visit the github repository
 
-1. Choose the appropriate instance size. In this case, there's no reason to do anything more than the $5 size.
+1. Choose the appropriate instance size (min 1GB RAM, 2GB recommended)
 
 1. Optionally rename the instance.
 
