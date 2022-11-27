@@ -28,6 +28,6 @@
 
    Lightsail will launch a new instance, copy in our shell script, and execute it on first boot.
 
-   The shell script installs `docker-compose` and launches our instance
+   The shell script installs `docker-compose` and launches our instance. Please be patient as it can take more than 10 minutes.
 
 1. Once the instance is up and running you can navigate to its IP address to see the running site.
