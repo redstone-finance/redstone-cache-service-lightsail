@@ -9,7 +9,7 @@ services:
       - mongodb
     environment:
       MONGO_DB_URL: "mongodb://mongodb:27017"
-      ENABLE_STREAMR_LISTENING: "false"
+      ENABLE_STREAMR_LISTENING: "true"
       ENABLE_DIRECT_POSTING_ROUTES: "false"
       MOCK_DATA_SERVICE_ID_FOR_PACKAGES: "false"
 
