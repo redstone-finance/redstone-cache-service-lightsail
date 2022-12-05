@@ -12,6 +12,7 @@ services:
       ENABLE_STREAMR_LISTENING: "true"
       ENABLE_DIRECT_POSTING_ROUTES: "false"
       MOCK_DATA_SERVICE_ID_FOR_PACKAGES: "false"
+      API_KEY_FOR_ACCESS_TO_ADMIN_ROUTES: "you-should-configure-your-own-key"
 
   mongodb:
     image: mongo:5.0
