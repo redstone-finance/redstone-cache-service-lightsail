@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   cache-service-app:
-    image: public.ecr.aws/y7v2w8b2/redstone-cache-service:d1ed946
+    image: public.ecr.aws/y7v2w8b2/redstone-cache-service:d5b7b4d
     ports:
       - 3000:3000
     depends_on:
