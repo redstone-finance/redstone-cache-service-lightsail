@@ -23,5 +23,8 @@ cd redstone-cache-service-lightsail
 # Redirect port 80 to 3000
 sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 
+# Add redirect command to bootup: https://stackoverflow.com/a/16573737
+echo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000 >> /etc/rc.local
+
 # Running docker-compose (in detached mode)
 docker-compose up -d
