@@ -2,11 +2,12 @@ version: "3.9"
 
 services:
   cache-service-app:
-    image: public.ecr.aws/y7v2w8b2/redstone-cache-service:d5b7b4d
+    image: public.ecr.aws/y7v2w8b2/redstone-cache-service:68ed6c1
     ports:
       - 3000:3000
     depends_on:
       - mongodb
+    restart: "on-failure"
     environment:
       MONGO_DB_URL: "mongodb://mongodb:27017"
       ENABLE_STREAMR_LISTENING: "true"
