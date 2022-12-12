@@ -21,7 +21,7 @@ git clone https://github.com/redstone-finance/redstone-cache-service-lightsail
 cd redstone-cache-service-lightsail
 
 # Redirect port 80 to 3000
-iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 
 # Running docker-compose (in detached mode)
 docker-compose up -d
